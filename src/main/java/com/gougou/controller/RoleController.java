@@ -68,6 +68,7 @@ public class RoleController {
         Map<String,Object> data=new HashMap<>();
         data.put("roleList",roleList);
         data.put("total",total);
+        System.out.println(data);
         return Result.success(data);
     }
 
